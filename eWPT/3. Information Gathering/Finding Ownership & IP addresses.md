@@ -8,6 +8,8 @@ WHOIS lookups can be performed through the command line interface via the WHOIS 
 
 Website Fingerprinting with Netcraft
 
-www.netcraft.com/internet-data-mining
+www.netcraft.com
+
+
 
 
