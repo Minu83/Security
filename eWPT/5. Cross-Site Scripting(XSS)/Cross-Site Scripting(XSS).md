@@ -28,6 +28,5 @@ When the victim clicks on the link the website includes the XSS payload as part 
 ![[Pasted image 20250320102056.png]]
 
 
-JavaScript Primer
 
 
